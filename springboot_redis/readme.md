@@ -22,3 +22,5 @@
 可以参考springboot官方的整合redis
 1. You can also register an arbitrary number of beans that implement LettuceClientConfigurationBuilderCustomizer for more advanced customizations. If you use Jedis, JedisClientConfigurationBuilderCustomizer is also available.
 2. If you add your own @Bean of any of the auto-configured types, it replaces the default (except in the case of RedisTemplate, when the exclusion is based on the bean name, redisTemplate, not its type). By default, if commons-pool2 is on the classpath, you get a pooled connection factory.
+
+### 更多介绍可以参考[csdn](https://blog.csdn.net/qq_40693171/article/details/84948300)
