@@ -1,0 +1,3 @@
+访问 localhost:8080/hello
+
+WebMvcConfiguration配置解决跨域问题

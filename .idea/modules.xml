@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringbootDemo.iml" filepath="$PROJECT_DIR$/SpringbootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_devtools/springboot_devtools.iml" filepath="$PROJECT_DIR$/springboot_devtools/springboot_devtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_druid/springboot_druid.iml" filepath="$PROJECT_DIR$/springboot_druid/springboot_druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_firstdemo/springboot_firstdemo.iml" filepath="$PROJECT_DIR$/springboot_firstdemo/springboot_firstdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_logback/springboot_logback.iml" filepath="$PROJECT_DIR$/springboot_logback/springboot_logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml" filepath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_redisCache/springboot_redisCache.iml" filepath="$PROJECT_DIR$/springboot_redisCache/springboot_redisCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_thymleaf/springboot_thymleaf.iml" filepath="$PROJECT_DIR$/springboot_thymleaf/springboot_thymleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_war/springboot_war.iml" filepath="$PROJECT_DIR$/springboot_war/springboot_war.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mybatis.dao.userMapper" >
+
+    <select id="getalluserwithdog" resultMap="user1">
+        select * from user
+    </select>
+
+    <resultMap id="user1" type="user">
+        <result property="username" column="username"/><!--property pojo对象中，column 数据库中，此方法也可解决数据库和pojo对象不一致问题 -->
+        <result property="password" column="password"/>
+        <collection property="dogs" ofType="com.mybatis.pojo.dog" column="username" select="getdogbyusername"></collection>
+    </resultMap>
+
+    <select id="getdogbyusername" resultType="com.mybatis.pojo.dog">
+        select * from dog where master_name=#{username}
+    </select>
+
+
+</mapper>

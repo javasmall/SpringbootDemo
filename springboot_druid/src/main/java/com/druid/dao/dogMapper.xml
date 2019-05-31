@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.druid.dao.dogMapper" >
+
+    <resultMap id="dog"  type="dog">
+        <!--<id property="id" column="id"/>如果有id的话 -->
+        <result property="dogname" column="dogname"/><!--property pojo对象中，column 数据库中，此方法也可解决数据库和pojo对象不一致问题 -->
+        <result property="dogtype" column="dogtype"/>
+        <association property="master" javaType="user">
+            <result property="username" column="username"/>
+            <result property="password" column="password"/>
+        </association>
+    </resultMap>
+    <select id="getdogbyType" resultMap="dog">
+         select a.dogname,a.dogtype ,b.username,b.password
+         from dog a,user b
+         where a.master_name=b.username
+         and a.dogtype=#{type}
+    </select>
+
+</mapper>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymleafdemo</title>
+</head>
+<body>
+<h2>字符串：</h2>
+<table border="1">
+    <tr>
+        <td>name</td>
+        <td th:text="${name}"></td>
+    </tr>
+</table>
+<h2>pojo对象</h2>
+<table bgcolor="#7fffd4" border="1">
+    <tr>
+        <td>name</td>
+        <td th:text="${user.name}"></td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td th:text="${user.password}"></td>
+    </tr>
+</table>
+<h2>map</h2>
+<table border="1">
+    <tr>
+        <td>qq</td>
+        <td th:text="${map['qq']}"></td>
+    </tr>
+    <tr>
+        <td>sex</td>
+        <td th:text="${map['sex']}"></td>
+    </tr>
+</table>
+<h2>List</h2>
+<table bgcolor="#ffe4c4" border="1">
+    <tr th:each="liststr:${list}">
+        <td>index</td>
+        <td th:text="${liststr}"></td>
+    </tr>
+</table>
+<img src="https://img-blog.csdnimg.cn/20190402171442251.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjkzMTcx,size_16,color_FFFFFF,t_70"/>
+</body>
+</html>
