@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.servlet.Filter;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -28,6 +29,10 @@ public class ShiroConfig {
         //设置安全管理器
         shiroFilterFactoryBean.setSecurityManager(securityManager);
 
+
+        Map<String, Filter> filtersMap = new LinkedHashMap<>();
+        filtersMap.put("rolesFilter",new rolesFilter());
+        shiroFilterFactoryBean.setFilters(filtersMap);//使用自定义fitter
         //添加Shiro内置过滤器
         /**
          * Shiro内置过滤器，可以实现权限相关的拦截器
@@ -39,8 +44,7 @@ public class ShiroConfig {
          *       role: 该资源必须得到角色权限才可以访问
          */
         Map<String, String> filterMap = new LinkedHashMap<String, String>();
-		/*filterMap.put("/add", "authc");
-		filterMap.put("/update", "authc");*/
+
 
 
         filterMap.put("/login", "anon");//要将登陆的接口放出来，不然没权限访问登陆的接口
@@ -52,7 +56,10 @@ public class ShiroConfig {
         filterMap.put("/update", "perms[update]");
 
 //
+        filterMap.put("/test1.html","rolesFilter[admin,user]");
         filterMap.put("/*", "authc");//authc即为认证登陆后即可访问
+
+
 
         //修改调整的登录页面
         shiroFilterFactoryBean.setLoginUrl("/index");

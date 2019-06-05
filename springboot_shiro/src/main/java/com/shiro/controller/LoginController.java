@@ -18,11 +18,11 @@ public class LoginController {
      * 登录逻辑处理
      */
     @RequestMapping("/login")
-    public String login(String name, String password, String yanzheng, Model model, HttpServletRequest request) {
+    public String login(String name, String password, Model model, HttpServletRequest request) {
 //         如果需要验证码验证
 //        if(!((String)(request.getSession().getAttribute("randCheckCode"))).toLowerCase().equals(yanzheng.toLowerCase())){model.addAttribute("msg","验证码错误");return "login";}
 //        System.out.println("name="+name);
-        model.addAttribute("nama", "江苏科技大学");
+        model.addAttribute("nama", "给个star");
         /**
          * 使用Shiro编写认证操作
          */
