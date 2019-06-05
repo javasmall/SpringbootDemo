@@ -1,7 +1,9 @@
 package com.shiro;
 
+import com.shiro.mapper.studentMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -9,8 +11,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ShiroApplicationTests {
 
+    @Autowired(required = false)
+    com.shiro.mapper.studentMapper studentMapper;
     @Test
     public void contextLoads() {
+    }
+    @Test
+    public void test()
+    {
+        studentMapper.findByName("66");
+
     }
 
 }

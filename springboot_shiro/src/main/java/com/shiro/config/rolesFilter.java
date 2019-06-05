@@ -22,7 +22,6 @@ public class rolesFilter extends AuthorizationFilter {
                 return true;
             }
         }
-
         return false;
     }
 }

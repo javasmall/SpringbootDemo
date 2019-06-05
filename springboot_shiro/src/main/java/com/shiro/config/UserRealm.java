@@ -57,12 +57,10 @@ public class UserRealm extends AuthorizingRealm{
 		UsernamePasswordToken token = (UsernamePasswordToken)arg0;
 
 		student user = studentMapper.findByName(token.getUsername());
-
 		if(user==null){
 			//用户名不存在
 			return null;//shiro底层会抛出UnKnowAccountException
 		}
-
 		//2.判断密码
 		return new SimpleAuthenticationInfo(user,user.getPassword(),"");
 	}
