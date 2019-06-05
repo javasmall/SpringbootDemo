@@ -13,6 +13,7 @@
         <module name="springboot_mybatis" />
         <module name="springboot_redis" />
         <module name="springboot_redisCache" />
+        <module name="springboot_shiro" />
         <module name="springboot_thymleaf" />
         <module name="springboot_war" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="springboot_mybatis" target="1.8" />
       <module name="springboot_redis" target="1.8" />
       <module name="springboot_redisCache" target="1.8" />
+      <module name="springboot_shiro" target="1.8" />
       <module name="springboot_thymleaf" target="1.8" />
       <module name="springboot_war" target="1.8" />
     </bytecodeTargetLevel>
@@ -38,6 +40,7 @@
       <module name="springboot_mybatis" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
       <module name="springboot_redisCache" options="-parameters" />
+      <module name="springboot_shiro" options="-parameters" />
       <module name="springboot_thymleaf" options="-parameters" />
       <module name="springboot_war" options="-parameters" />
     </option>

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/springboot_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml" filepath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redisCache/springboot_redisCache.iml" filepath="$PROJECT_DIR$/springboot_redisCache/springboot_redisCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_shiro/springboot_shiro.iml" filepath="$PROJECT_DIR$/springboot_shiro/springboot_shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_thymleaf/springboot_thymleaf.iml" filepath="$PROJECT_DIR$/springboot_thymleaf/springboot_thymleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_war/springboot_war.iml" filepath="$PROJECT_DIR$/springboot_war/springboot_war.iml" />
     </modules>
