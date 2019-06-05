@@ -17,16 +17,17 @@ import java.util.Random;
 @Controller
 public class yanzhengController {
     @GetMapping("getcontroller")
-    public void getimage(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
-        service(request,response);
+    public void getimage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        service(request, response);
     }
+
     public Color getRandColor(int s, int e) {
         Random random = new Random();
         if (s > 255) s = 255;
         if (e > 255) e = 255;
-        int r = s + random.nextInt(e - s);		//随机生成RGB颜色中的r值
-        int g = s + random.nextInt(e - s);		//随机生成RGB颜色中的g值
-        int b = s + random.nextInt(e - s);		//随机生成RGB颜色中的b值
+        int r = s + random.nextInt(e - s);        //随机生成RGB颜色中的r值
+        int g = s + random.nextInt(e - s);        //随机生成RGB颜色中的g值
+        int b = s + random.nextInt(e - s);        //随机生成RGB颜色中的b值
         return new Color(r, g, b);
     }
 
@@ -94,7 +95,7 @@ public class yanzhengController {
 
         }
         // 将生成的验证码保存到Session中e
-         HttpSession session = request.getSession(true);
+        HttpSession session = request.getSession(true);
         session.setAttribute("randCheckCode", sRand);
         g.dispose();
         ImageIO.write(image, "JPEG", response.getOutputStream());

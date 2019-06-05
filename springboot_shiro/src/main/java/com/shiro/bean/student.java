@@ -1,7 +1,7 @@
 package com.shiro.bean;
 
 public class student {
-    private  String username;
+    private String username;
     private String password;
     private String role;
     private String perm;

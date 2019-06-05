@@ -18,9 +18,11 @@ public class LoginController {
      * 登录逻辑处理
      */
     @RequestMapping("/login")
-    public String login(String name, String password, String yanzheng, Model model, HttpServletRequest request){
-
-        model.addAttribute("nama","江苏科技大学");
+    public String login(String name, String password, String yanzheng, Model model, HttpServletRequest request) {
+//         如果需要验证码验证
+//        if(!((String)(request.getSession().getAttribute("randCheckCode"))).toLowerCase().equals(yanzheng.toLowerCase())){model.addAttribute("msg","验证码错误");return "login";}
+//        System.out.println("name="+name);
+        model.addAttribute("nama", "江苏科技大学");
         /**
          * 使用Shiro编写认证操作
          */
@@ -28,7 +30,7 @@ public class LoginController {
         Subject subject = SecurityUtils.getSubject();
 
         //2.封装用户数据
-        UsernamePasswordToken token = new UsernamePasswordToken(name,password);
+        UsernamePasswordToken token = new UsernamePasswordToken(name, password);
 
         //3.执行登录方法
         try {
@@ -42,7 +44,7 @@ public class LoginController {
             //登录失败:用户名不存在
             model.addAttribute("msg", "用户名不存在");
             return "login";
-        }catch (IncorrectCredentialsException e) {
+        } catch (IncorrectCredentialsException e) {
             //e.printStackTrace();
             //登录失败:密码错误
             model.addAttribute("msg", "密码错误");

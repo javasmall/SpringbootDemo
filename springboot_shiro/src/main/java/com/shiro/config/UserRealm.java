@@ -16,7 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * 自定义Realm
- * @author lenovo
+ * @author bigsai
  *
  */
 public class UserRealm extends AuthorizingRealm{
@@ -35,7 +35,6 @@ public class UserRealm extends AuthorizingRealm{
 		SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
 
 		//添加资源的授权字符串
-
 		//到数据库查询当前登录用户的授权字符串
 		//获取当前登录用户
 		Subject subject = SecurityUtils.getSubject();
@@ -56,14 +55,14 @@ public class UserRealm extends AuthorizingRealm{
 		//编写shiro判断逻辑，判断用户名和密码
 		//1.判断用户名
 		UsernamePasswordToken token = (UsernamePasswordToken)arg0;
-		
+
 		student user = studentMapper.findByName(token.getUsername());
 
 		if(user==null){
 			//用户名不存在
 			return null;//shiro底层会抛出UnKnowAccountException
 		}
-		
+
 		//2.判断密码
 		return new SimpleAuthenticationInfo(user,user.getPassword(),"");
 	}
