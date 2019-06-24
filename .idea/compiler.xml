@@ -6,40 +6,73 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_devtools" />
-        <module name="springboot_druid" />
-        <module name="springboot_firstdemo" />
         <module name="springboot_logback" />
-        <module name="springboot_mybatis" />
-        <module name="springboot_redis" />
+        <module name="springboot_firstdemo" />
+        <module name="redisCache" />
+        <module name="redis" />
         <module name="springboot_redisCache" />
-        <module name="springboot_thymleaf" />
+        <module name="springboot_mybatis" />
+        <module name="druid" />
+        <module name="thymleaf" />
+        <module name="logback" />
         <module name="springboot_war" />
+        <module name="springboot_redislock" />
+        <module name="springboot_devtools" />
+        <module name="springboot_thymleaf" />
+        <module name="mybatis" />
+        <module name="springboot_druid" />
+        <module name="devtools" />
+        <module name="springboot_elasticsearch" />
+        <module name="springboot_redis" />
+        <module name="war" />
+        <module name="firstdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="devtools" target="1.8" />
+      <module name="druid" target="1.8" />
+      <module name="firstdemo" target="1.8" />
+      <module name="logback" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="redisCache" target="1.8" />
       <module name="springboot_devtools" target="1.8" />
       <module name="springboot_druid" target="1.8" />
+      <module name="springboot_elasticsearch" target="1.8" />
       <module name="springboot_firstdemo" target="1.8" />
       <module name="springboot_logback" target="1.8" />
       <module name="springboot_mybatis" target="1.8" />
       <module name="springboot_redis" target="1.8" />
       <module name="springboot_redisCache" target="1.8" />
+      <module name="springboot_redislock" target="1.8" />
       <module name="springboot_thymleaf" target="1.8" />
       <module name="springboot_war" target="1.8" />
+      <module name="thymleaf" target="1.8" />
+      <module name="war" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="devtools" options="-parameters" />
+      <module name="druid" options="-parameters" />
+      <module name="firstdemo" options="-parameters" />
+      <module name="logback" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="redisCache" options="-parameters" />
       <module name="springboot_devtools" options="-parameters" />
       <module name="springboot_druid" options="-parameters" />
+      <module name="springboot_elasticsearch" options="-parameters" />
       <module name="springboot_firstdemo" options="-parameters" />
       <module name="springboot_logback" options="-parameters" />
       <module name="springboot_mybatis" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
       <module name="springboot_redisCache" options="-parameters" />
+      <module name="springboot_redislock" options="-parameters" />
       <module name="springboot_thymleaf" options="-parameters" />
       <module name="springboot_war" options="-parameters" />
+      <module name="thymleaf" options="-parameters" />
+      <module name="war" options="-parameters" />
     </option>
   </component>
 </project>

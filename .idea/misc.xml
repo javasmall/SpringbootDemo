@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/springboot_war/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_redisCache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_redislock/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_elasticsearch/pom.xml" />
       </list>
     </option>
   </component>
