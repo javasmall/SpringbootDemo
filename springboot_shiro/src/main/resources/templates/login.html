@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+<h3>登录</h3>
+<h3 th:text="${msg}" style="color: red"></h3>
+<h3 th:text="${name}" style="color: red"></h3>
+
+<form method="post" action="login">
+    用户名:<input type="text" name="name"/><br/>
+    密码：<input type="password" name="password"/><br/>
+    验证码：<img src="getcontroller"><input type="text" name="yanzheng"/>
+    <input type="submit" value="登录"/>
+</form>
+</body>
+</html>
