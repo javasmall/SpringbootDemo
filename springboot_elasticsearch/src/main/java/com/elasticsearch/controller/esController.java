@@ -3,8 +3,6 @@ package com.elasticsearch.controller;
 
 import com.elasticsearch.pojo.dog;
 import com.elasticsearch.service.Esteamplate;
-
-import com.sun.org.apache.regexp.internal.RE;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redis/redis.iml" filepath="$PROJECT_DIR$/springboot_redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redisCache/redisCache.iml" filepath="$PROJECT_DIR$/springboot_redisCache/redisCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_shiro/shiro.iml" filepath="$PROJECT_DIR$/springboot_shiro/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_elasticsearch/springboot_elasticsearch.iml" filepath="$PROJECT_DIR$/springboot_elasticsearch/springboot_elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_elk/springboot_elk.iml" filepath="$PROJECT_DIR$/springboot_elk/springboot_elk.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redislock/springboot_redislock.iml" filepath="$PROJECT_DIR$/springboot_redislock/springboot_redislock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_thymleaf/thymleaf.iml" filepath="$PROJECT_DIR$/springboot_thymleaf/thymleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_war/war.iml" filepath="$PROJECT_DIR$/springboot_war/war.iml" />
