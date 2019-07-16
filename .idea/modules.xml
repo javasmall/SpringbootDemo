@@ -5,15 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/SpringbootDemo.iml" filepath="$PROJECT_DIR$/SpringbootDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_devtools/devtools.iml" filepath="$PROJECT_DIR$/springboot_devtools/devtools.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_druid/druid.iml" filepath="$PROJECT_DIR$/springboot_druid/druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/springboot_elasticsearch/elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_elk/elk.iml" filepath="$PROJECT_DIR$/springboot_elk/elk.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_firstdemo/firstdemo.iml" filepath="$PROJECT_DIR$/springboot_firstdemo/firstdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_logback/logback.iml" filepath="$PROJECT_DIR$/springboot_logback/logback.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_mybatis/mybatis.iml" filepath="$PROJECT_DIR$/springboot_mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redis/redis.iml" filepath="$PROJECT_DIR$/springboot_redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redisCache/redisCache.iml" filepath="$PROJECT_DIR$/springboot_redisCache/redisCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_redislock/redislock.iml" filepath="$PROJECT_DIR$/springboot_redislock/redislock.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_shiro/shiro.iml" filepath="$PROJECT_DIR$/springboot_shiro/shiro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_elasticsearch/springboot_elasticsearch.iml" filepath="$PROJECT_DIR$/springboot_elasticsearch/springboot_elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_elk/springboot_elk.iml" filepath="$PROJECT_DIR$/springboot_elk/springboot_elk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_redislock/springboot_redislock.iml" filepath="$PROJECT_DIR$/springboot_redislock/springboot_redislock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_swagger2/springboot_swagger2.iml" filepath="$PROJECT_DIR$/springboot_swagger2/springboot_swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_thymleaf/thymleaf.iml" filepath="$PROJECT_DIR$/springboot_thymleaf/thymleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_war/war.iml" filepath="$PROJECT_DIR$/springboot_war/war.iml" />
     </modules>

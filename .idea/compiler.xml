@@ -6,35 +6,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_logback" />
-        <module name="redisCache" />
-        <module name="redis" />
-        <module name="springboot_redisCache" />
-        <module name="springboot_firstdemo" />
-        <module name="druid" />
-        <module name="shiro" />
-        <module name="logback" />
-        <module name="springboot_war" />
-        <module name="springboot_redislock" />
-        <module name="springboot_thymleaf" />
-        <module name="springboot_elk" />
-        <module name="thymleaf" />
-        <module name="mybatis" />
         <module name="devtools" />
-        <module name="springboot_shiro" />
-        <module name="springboot_elasticsearch" />
-        <module name="war" />
+        <module name="druid" />
+        <module name="elasticsearch" />
+        <module name="elk" />
         <module name="firstdemo" />
+        <module name="logback" />
+        <module name="mybatis" />
+        <module name="redis" />
+        <module name="redisCache" />
+        <module name="redislock" />
+        <module name="shiro" />
+        <module name="springboot_elasticsearch" />
+        <module name="springboot_elk" />
+        <module name="springboot_firstdemo" />
+        <module name="springboot_logback" />
+        <module name="springboot_redisCache" />
+        <module name="springboot_redislock" />
+        <module name="springboot_shiro" />
+        <module name="springboot_swagger2" />
+        <module name="springboot_thymleaf" />
+        <module name="springboot_war" />
+        <module name="thymleaf" />
+        <module name="war" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="devtools" target="1.8" />
       <module name="druid" target="1.8" />
+      <module name="elasticsearch" target="1.8" />
+      <module name="elk" target="1.8" />
       <module name="firstdemo" target="1.8" />
       <module name="logback" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="redisCache" target="1.8" />
+      <module name="redislock" target="1.8" />
       <module name="shiro" target="1.8" />
       <module name="springboot_devtools" target="1.8" />
       <module name="springboot_druid" target="1.8" />
@@ -46,6 +53,7 @@
       <module name="springboot_redis" target="1.8" />
       <module name="springboot_redisCache" target="1.8" />
       <module name="springboot_redislock" target="1.8" />
+      <module name="springboot_swagger2" target="1.8" />
       <module name="springboot_thymleaf" target="1.8" />
       <module name="springboot_war" target="1.8" />
       <module name="thymleaf" target="1.8" />
@@ -56,11 +64,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="devtools" options="-parameters" />
       <module name="druid" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
+      <module name="elk" options="-parameters" />
       <module name="firstdemo" options="-parameters" />
       <module name="logback" options="-parameters" />
       <module name="mybatis" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="redisCache" options="-parameters" />
+      <module name="redislock" options="-parameters" />
       <module name="shiro" options="-parameters" />
       <module name="springboot_devtools" options="-parameters" />
       <module name="springboot_druid" options="-parameters" />
@@ -72,6 +83,7 @@
       <module name="springboot_redis" options="-parameters" />
       <module name="springboot_redisCache" options="-parameters" />
       <module name="springboot_redislock" options="-parameters" />
+      <module name="springboot_swagger2" options="-parameters" />
       <module name="springboot_thymleaf" options="-parameters" />
       <module name="springboot_war" options="-parameters" />
       <module name="thymleaf" options="-parameters" />

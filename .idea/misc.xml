@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/springboot_elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_shiro/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_elk/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_swagger2/pom.xml" />
       </list>
     </option>
   </component>

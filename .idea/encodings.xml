@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/springboot_devtools" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_druid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_elasticsearch" charset="UTF-8" />
@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/springboot_redisCache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_redislock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_swagger2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_thymleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_war" charset="UTF-8" />
   </component>

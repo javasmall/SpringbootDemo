@@ -32,5 +32,16 @@ public class redisController {
     {
         return redisService.getuserbyname(username);
     }
+    @GetMapping("updateuser/{username}/{password}")
+    public user updateuser(@PathVariable String username,@PathVariable String password)
+    {
+        return redisService.updateuser(username,password);
+    }
+
+    @GetMapping("deleteuser/{username}")
+    public String deleteuser(@PathVariable String username)
+    {
+        return  redisService.deleteuser(username);
+    }
 
 }

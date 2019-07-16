@@ -30,6 +30,7 @@ public class redisService {
         list.add(user2);
         return list;
     }
+    //获取user  如果没有缓存将执行log
     @Cacheable(value = "getuser",key = "#username")
     public user getuserbyname(String username)
     {
@@ -38,7 +39,7 @@ public class redisService {
         logger.info("执行方法cacheable，从mysql查询");
         return user;
     }
-
+     //更新user。每次都执行
     @CachePut(value = "getuser",key = "#username")
     public user updateuser(String username,String password)
     {
