@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+<section class="layui-larry-box">
+    <div class="larry-personal">
+        <blockquote class="layui-elem-quote layui-text">
+            <span>增加订单</span>
+        </blockquote>
+        <form class="layui-form col-lg-5 " action="addorder" method="post">
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">订单id</label>
+                <div class="layui-input-block">
+                    <input type="text" name="id" autocomplete="off" class="layui-input" value="" >
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">发货人姓名</label>
+                <div class="layui-input-block">
+                    <input type="text" name="shipper"  autocomplete="off" class="layui-input"  value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">发货人地址</label>
+                <div class="layui-input-block">
+                    <input type="text" name="shippingAdress"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">发货人电话</label>
+                <div class="layui-input-block">
+                    <input type="text" name="shipperPhone"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">收件人姓名</label>
+                <div class="layui-input-block">
+                    <input type="text" name="recevier"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">收件人地址</label>
+                <div class="layui-input-block">
+                    <input type="text" name="recevierAddress"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">收件人手机</label>
+                <div class="layui-input-block">
+                    <input type="text" name="receviePhone"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button  class="layui-btn" lay-submit lay-filter="formDemo">添加</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+<script type="text/javascript" src="layui/layui.js"></script>

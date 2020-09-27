@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+<section class="layui-larry-box">
+    <div class="larry-personal">
+        <blockquote class="layui-elem-quote layui-text">
+            <span>增加物流信息</span>
+        </blockquote>
+        <form class="layui-form col-lg-5 " action="updateorder" method="post">
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">订单id</label>
+                <div class="layui-input-block">
+                    <input type="text" name="orderId" autocomplete="off" class="layui-input" value="" >
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">操作名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="operation"  autocomplete="off" class="layui-input"  value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">操作员</label>
+                <div class="layui-input-block">
+                    <input type="text" name="operator"  autocomplete="off" class="layui-input"  value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">操作地址</label>
+                <div class="layui-input-block">
+                    <input type="text" name="adress"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    <input type="text" name="details"  autocomplete="off" class="layui-input" value="">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button  class="layui-btn" lay-submit lay-filter="formDemo">添加</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+<script type="text/javascript" src="layui/layui.js"></script>
