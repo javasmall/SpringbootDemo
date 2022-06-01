@@ -15,7 +15,7 @@ import java.io.Serializable;
 @AutoConfigureAfter(RedisAutoConfiguration.class)
 public class RedisConfiguration {
     @Bean
-    public RedisTemplate<String, Serializable> redislockTemplate(LettuceConnectionFactory redisConnectionFactory) {
+    public RedisTemplate<String, Serializable> redisLockTemplate(LettuceConnectionFactory redisConnectionFactory) {
         RedisTemplate<String, Serializable> template = new RedisTemplate<>();
         GenericJackson2JsonRedisSerializer jackson2JsonRedisSerializer = new GenericJackson2JsonRedisSerializer();
         // 设置键（key）的序列化采用StringRedisSerializer。
